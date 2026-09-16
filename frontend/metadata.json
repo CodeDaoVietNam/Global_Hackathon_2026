@@ -1,0 +1,6 @@
+{
+  "name": "ContextCue",
+  "description": "A peer-sourced cultural context learning tool for international students collaborating in Singapore to understand Singlish, idioms, humour, and indirect teamwork feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

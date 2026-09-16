@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #4f46e5;
+  --brand-dark: #4338ca;
+  --brand-deep: #312e81;
+  --brand-accent: #6366f1;
+  --brand-light: #eef2ff;
+  --brand-glow: rgba(79, 70, 229, 0.15);
+  --teal-primary: #4f46e5;
+  --teal-dark: #4338ca;
+  --teal-heritage: #312e81;
+  --teal-accent: #6366f1;
+  --teal-light: #eef2ff;
+  --teal-glow: rgba(79, 70, 229, 0.15);
+  --bg-main: #f8fafc;
+  --cream-bg: #f8fafc;
+  --cream-card: #ffffff;
+  --ink-text: #0f172a;
+  --ink-muted: #64748b;
+  --mist-border: #e2e8f0;
+  --border-subtle: rgba(15, 23, 42, 0.08);
+  --cyan-accent: #06b6d4;
+  --amber-warn: #f59e0b;
+  --amber-light: #fffbeb;
+  --emerald-success: #10b981;
+  --emerald-light: #ecfdf5;
+  --rose-danger: #f43f5e;
+  --rose-light: #fff1f2;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--ink-text);
+    min-height: 100vh;
+    letter-spacing: -0.01em;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--brand-primary);
+    outline-offset: 2px;
+  }
+}
+
+.font-serif {
+  font-family: 'Source Serif 4', Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.glass-panel {
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 4px 20px -2px rgba(79, 70, 229, 0.05), 0 1px 3px 0 rgba(0, 0, 0, 0.02);
+}
+
+.glass-card {
+  background-color: #ffffff;
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 2px 10px -2px rgba(79, 70, 229, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.02);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(79, 70, 229, 0.3);
+  box-shadow: 0 12px 30px -4px rgba(79, 70, 229, 0.1), 0 4px 8px -2px rgba(0, 0, 0, 0.02);
+  transform: translateY(-2px);
+}
+
+/* Typing indicator animation */
+@keyframes typing-bounce {
+  0%, 60%, 100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  30% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+}
+
+.animate-typing-dot-1 {
+  animation: typing-bounce 1.3s infinite 0ms ease-in-out;
+}
+.animate-typing-dot-2 {
+  animation: typing-bounce 1.3s infinite 200ms ease-in-out;
+}
+.animate-typing-dot-3 {
+  animation: typing-bounce 1.3s infinite 400ms ease-in-out;
+}
+
+/* Subtle gentle pulse */
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.02);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2.5s infinite ease-in-out;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
