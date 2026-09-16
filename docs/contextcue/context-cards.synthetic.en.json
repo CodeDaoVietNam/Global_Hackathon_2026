@@ -1,0 +1,742 @@
+{
+  "dataset_name": "ContextCue Singapore synthetic seed cards",
+  "version": "0.1",
+  "researched_on": "2026-09-16",
+  "default_language": "en",
+  "status": "synthetic_unreviewed",
+  "purpose": "Prototype content and peer-review preparation; not validated cultural guidance or independent evaluation data.",
+  "provenance_note": "All situations, dialogue, interpretation alternatives, responses and exercises are AI-authored. Sources support only the specific background or vocabulary identified in evidence_scope. No real peer contribution or user validation is claimed.",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "NUS: Singlish goes digital",
+      "url": "https://news.nus.edu.sg/singlish-goes-digital/",
+      "supports": "Singlish occurs in digital messages; the article illustrates meh expressing skepticism in a particular sentence.",
+      "limits": "Does not validate our fictional dialogues or infer individual intent. No CoSEM records were downloaded."
+    },
+    {
+      "id": "S2",
+      "title": "NUS: Group Work: Improving Communication, Participation and Dynamics",
+      "url": "https://fass.nus.edu.sg/news/2021/07/28/group-work-improving-communication-participation-and-dynamics/",
+      "supports": "A university educator describes communication difficulties and recommends discussing differences in working styles respectfully.",
+      "limits": "Practice account, not evidence that all Singaporean students communicate indirectly."
+    },
+    {
+      "id": "S3",
+      "title": "NUS Libraries: How to Give Critical Feedback Without Anyone Losing Face",
+      "url": "https://nus.edu.sg/nuslibraries/whats-on-listing/events/how-to-give-critical-feedback-without-anyone-losing-face",
+      "supports": "Workshop description addresses balancing honest peer feedback with politeness and uses role play.",
+      "limits": "Not a validation study or dictionary of hidden meanings."
+    },
+    {
+      "id": "S4",
+      "title": "NUS BizBeat: Office humour: Why the joke’s on you",
+      "url": "https://bizbeat.nus.edu.sg/thought-leadership/article/office-humour-why-the-jokes-on-you/",
+      "supports": "Humour can be received differently and may offend regardless of intended humour.",
+      "limits": "Workplace discussion; our campus applications are design extrapolations, not observed findings."
+    },
+    {
+      "id": "S5",
+      "title": "Singapore Tourism Board: Singapore Insider, Apr–Jun 2019, printed page 3",
+      "url": "https://www.visitsingapore.com/content/dam/desktop/global/about-singapore/traveller-information/q2-singapore-insider-2019-en.pdf",
+      "supports": "Glossary explains makan as food/eating, shiok as enjoyment, and bojio as referring to not being invited.",
+      "limits": "Vocabulary support only; does not establish the emotions or intentions in our examples. Historical glossary, not current campus validation."
+    },
+    {
+      "id": "S6",
+      "title": "NUS: Alamak... Don’t get it? Good communication is more than grammar",
+      "url": "https://www.nus.edu.sg/thought-leadership/good-communication-is-more-than-grammar",
+      "supports": "Accessible NUS summary says language use should adapt to topic, participants and communication mode.",
+      "limits": "Only the accessible summary was used; the linked full commentary was not used."
+    }
+  ],
+  "cards": [
+    {
+      "id": "sg-team-01",
+      "category": "academic_teamwork",
+      "title": "Agreement needs a referent",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "Can lah.",
+      "scenario": "I asked a new project teammate, \"Could you help with the slides?\" They replied, \"Can lah.\" We have not discussed which slides or when.",
+      "user_goal": "Confirm what help is being offered.",
+      "possible_interpretations": [
+        {
+          "interpretation": "They are agreeing to help.",
+          "when_plausible": "The reply directly answers your request."
+        },
+        {
+          "interpretation": "They are reassuring you that the task is manageable.",
+          "when_plausible": "The conversation was mainly about whether the slides could be completed."
+        }
+      ],
+      "missing_context": [
+        "What exactly did you ask?",
+        "Were ownership and timing already agreed?"
+      ],
+      "do_not_assume": "Do not label the reply unreliable or reluctant because it contains lah. In this scenario, the original request lacks details.",
+      "suggested_response": "Thanks! Could you draft slides 3–5 by 7 pm? I will handle the introduction.",
+      "learning_check": {
+        "prompt": "Write a follow-up that makes this offer actionable.",
+        "success_criteria": [
+          "Names the work and time",
+          "Invites agreement instead of imposing an assumed commitment"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "The request already names slides 3–5 and 7 pm, and the teammate explicitly accepts it.",
+        "expected_adjustment": "Recognise the agreement; do not invent uncertainty solely because Singlish is used."
+      },
+      "tags": [
+        "agreement",
+        "task_owner",
+        "deadline",
+        "can lah"
+      ],
+      "singapore_specific_language": true,
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "evidence_scope": "S1 supports digital Singlish generally, not a precise definition of can lah. The agreement reading is an ordinary conversational hypothesis requiring local review; S2 provides general teamwork background.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    },
+    {
+      "id": "sg-team-02",
+      "category": "academic_teamwork",
+      "title": "A proposal is still under consideration",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "Can consider.",
+      "scenario": "I suggested using interviews for our project. A teammate said, \"Can consider.\" The meeting moved on without assigning anyone to interview participants.",
+      "user_goal": "Find out whether the team has chosen the method.",
+      "possible_interpretations": [
+        {
+          "interpretation": "The idea remains an option.",
+          "when_plausible": "Alternatives are still being discussed."
+        },
+        {
+          "interpretation": "The teammate is hesitant or wants more information.",
+          "when_plausible": "They have concerns that have not yet been explained."
+        }
+      ],
+      "missing_context": [
+        "Did anyone explicitly approve the method?",
+        "What options or constraints are still open?"
+      ],
+      "do_not_assume": "Do not translate this automatically as a hidden no, or as permission to start collecting data.",
+      "suggested_response": "Would you like us to compare interviews with the other options before deciding?",
+      "learning_check": {
+        "prompt": "Ask for a decision without accusing the teammate of rejecting you.",
+        "success_criteria": [
+          "Separates consideration from selection",
+          "Requests a concrete decision process"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "The teammate adds, \"Yes, let’s use interviews; I will draft the questions.\"",
+        "expected_adjustment": "Acknowledge that the later statement resolves the earlier ambiguity."
+      },
+      "tags": [
+        "proposal",
+        "decision",
+        "can consider"
+      ],
+      "singapore_specific_language": false,
+      "source_ids": [
+        "S2",
+        "S6"
+      ],
+      "evidence_scope": "General teamwork and context-sensitive communication principles only; the exact phrase and interpretations are synthetic and not established Singapore-specific meanings.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    },
+    {
+      "id": "sg-team-03",
+      "category": "academic_teamwork",
+      "title": "A question may express surprise",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "Need to submit tonight meh?",
+      "scenario": "I remind the group that the report is due tonight. A teammate writes, \"Need to submit tonight meh?\" I worry that they are challenging me.",
+      "user_goal": "Clarify the deadline without escalating disagreement.",
+      "possible_interpretations": [
+        {
+          "interpretation": "They doubt that tonight is the deadline.",
+          "when_plausible": "They remember a different date."
+        },
+        {
+          "interpretation": "They are surprised and asking for confirmation.",
+          "when_plausible": "They have just learned about the deadline."
+        }
+      ],
+      "missing_context": [
+        "What does the assignment page say?",
+        "Is this the final deadline or a team draft deadline?"
+      ],
+      "do_not_assume": "Do not infer hostility from meh or treat the teammate’s doubt as evidence that the deadline changed.",
+      "suggested_response": "Let’s check the assignment page together. Are we talking about the final submission or our team’s draft deadline?",
+      "learning_check": {
+        "prompt": "If the official deadline is actually tonight, how would you change the response?",
+        "success_criteria": [
+          "Uses the verified deadline",
+          "Distinguishes official and internal deadlines"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "The assignment page says Friday and no earlier team deadline was agreed.",
+        "expected_adjustment": "Correct your reminder rather than defending an unsupported deadline."
+      },
+      "tags": [
+        "meh",
+        "deadline",
+        "surprise",
+        "clarification"
+      ],
+      "singapore_specific_language": true,
+      "source_ids": [
+        "S1"
+      ],
+      "evidence_scope": "The NUS example supports a skeptical use of meh; the deadline scenario and reply are original hypothetical applications.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    },
+    {
+      "id": "sg-team-04",
+      "category": "academic_teamwork",
+      "title": "An invitation may use an unfamiliar word",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "Want to makan after class?",
+      "scenario": "A classmate I have just met asks, \"Want to makan after class?\" I do not know whether this is a study session or a social invitation.",
+      "user_goal": "Understand the activity and decide whether to join.",
+      "possible_interpretations": [
+        {
+          "interpretation": "They are inviting you to eat.",
+          "when_plausible": "Makan refers to food or eating in this usage."
+        },
+        {
+          "interpretation": "The meal may also include project talk.",
+          "when_plausible": "They mention the project or bring the group along; the word alone does not tell you this."
+        }
+      ],
+      "missing_context": [
+        "Where and when are they going?",
+        "Is there anything you need to ask about food options?"
+      ],
+      "do_not_assume": "Do not assume the invitation means they will pay or that attendance is required.",
+      "suggested_response": "Thanks, I’d like to join. Where are you planning to eat?",
+      "learning_check": {
+        "prompt": "Decline warmly while leaving room for another invitation.",
+        "success_criteria": [
+          "States your availability clearly",
+          "Does not promise attendance you cannot manage"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "They say, \"We need to finish the project discussion over lunch.\"",
+        "expected_adjustment": "Recognise the stated work purpose and clarify an alternative if you cannot attend."
+      },
+      "tags": [
+        "makan",
+        "invitation",
+        "campus",
+        "belonging"
+      ],
+      "singapore_specific_language": true,
+      "source_ids": [
+        "S5"
+      ],
+      "evidence_scope": "Makan’s food/eating meaning is sourced; the invitation, payment caution and learning task are authored examples.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    },
+    {
+      "id": "sg-humour-01",
+      "category": "humour",
+      "title": "A playful complaint can also be a real request",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "Bojio!",
+      "scenario": "I mention getting lunch with two classmates. Another classmate replies, \"Bojio!\" I am unsure whether they are joking or upset.",
+      "user_goal": "Acknowledge the remark without guessing their feelings.",
+      "possible_interpretations": [
+        {
+          "interpretation": "They may be playfully saying they were not invited.",
+          "when_plausible": "The exchange is relaxed and this style of joking is familiar between you."
+        },
+        {
+          "interpretation": "They may actually want to be included.",
+          "when_plausible": "They say they felt left out or this has happened repeatedly."
+        }
+      ],
+      "missing_context": [
+        "Have they previously asked to join?",
+        "What else did they say?"
+      ],
+      "do_not_assume": "Do not dismiss the remark as definitely a joke or conclude they are angry from the word alone.",
+      "suggested_response": "It was a last-minute lunch. Would you like me to message you next time?",
+      "learning_check": {
+        "prompt": "What would you change if they said they had felt excluded several times?",
+        "success_criteria": [
+          "Acknowledges the stated feeling",
+          "Offers a practical inclusion step without demanding they laugh"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "They explicitly say, \"I felt left out, and I’m not joking.\"",
+        "expected_adjustment": "Take that explanation seriously; do not override it with a glossary."
+      },
+      "tags": [
+        "bojio",
+        "teasing",
+        "inclusion",
+        "lunch"
+      ],
+      "singapore_specific_language": true,
+      "source_ids": [
+        "S5",
+        "S4"
+      ],
+      "evidence_scope": "Bojio’s invitation-related meaning is sourced. Playfulness versus disappointment is a hypothetical distinction, not a documented account of this interaction.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    },
+    {
+      "id": "sg-humour-02",
+      "category": "humour",
+      "title": "An enthusiastic word can be used ironically",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "Another 8 am meeting. Shiok.",
+      "scenario": "After an extra early meeting is announced, a teammate posts, \"Another 8 am meeting. Shiok.\" There are no other messages explaining how they feel.",
+      "user_goal": "Check whether the meeting time works.",
+      "possible_interpretations": [
+        {
+          "interpretation": "They may genuinely like the arrangement.",
+          "when_plausible": "They prefer early meetings or explicitly say the time suits them."
+        },
+        {
+          "interpretation": "They may be using positive wording ironically.",
+          "when_plausible": "An unwanted extra meeting is being framed as enjoyable."
+        }
+      ],
+      "missing_context": [
+        "Have they stated a scheduling preference?",
+        "Was this a reply to a complaint or a positive comment?"
+      ],
+      "do_not_assume": "Do not infer sarcasm from the word alone, or infer tone of voice from text.",
+      "suggested_response": "Does 8 am work for you, or should we look for another time?",
+      "learning_check": {
+        "prompt": "Ask a scheduling question that works whether the remark is sincere or ironic.",
+        "success_criteria": [
+          "Checks availability",
+          "Does not claim to know the emotion"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "They add, \"I prefer mornings, so this is perfect.\"",
+        "expected_adjustment": "Use the explicit preference and interpret the message as positive."
+      },
+      "tags": [
+        "shiok",
+        "irony",
+        "sarcasm",
+        "scheduling"
+      ],
+      "singapore_specific_language": true,
+      "source_ids": [
+        "S5",
+        "S4"
+      ],
+      "evidence_scope": "Shiok’s positive meaning is sourced; the ironic usage in this invented sentence is an author hypothesis awaiting review.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    },
+    {
+      "id": "sg-humour-03",
+      "category": "humour",
+      "title": "Exaggerated praise after a mistake",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "Excellent timing!",
+      "scenario": "I arrive ten minutes late to a project meeting. A teammate says, \"Excellent timing!\" and laughs. I do not know whether to laugh back.",
+      "user_goal": "Respond to the lateness and clarify expectations.",
+      "possible_interpretations": [
+        {
+          "interpretation": "It may be teasing about arriving late.",
+          "when_plausible": "The positive wording contrasts with the late arrival."
+        },
+        {
+          "interpretation": "It may express actual frustration through humour.",
+          "when_plausible": "Others have been waiting or lateness is recurring."
+        }
+      ],
+      "missing_context": [
+        "Had the meeting started?",
+        "Were they genuinely waiting for something you brought?"
+      ],
+      "do_not_assume": "Do not label the person hostile or tell the user to accept teasing. This is not uniquely Singaporean language.",
+      "suggested_response": "Sorry I’m late. What did I miss? I’ll let you know earlier if I’m delayed next time.",
+      "learning_check": {
+        "prompt": "Write a reply that addresses your lateness without guessing their intent.",
+        "success_criteria": [
+          "Acknowledges the observable event",
+          "Offers a practical next step"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "You arrive exactly as the group needs your adapter and they say so.",
+        "expected_adjustment": "Recognise that the praise can be literal."
+      },
+      "tags": [
+        "sarcasm",
+        "lateness",
+        "teasing"
+      ],
+      "singapore_specific_language": false,
+      "source_ids": [
+        "S4"
+      ],
+      "evidence_scope": "General humour background only. The phrase, scenario, interpretations and response are original, not source quotations or local usage findings.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    },
+    {
+      "id": "sg-humour-04",
+      "category": "humour",
+      "title": "A joke does not remove your right to set a boundary",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "Just joking.",
+      "scenario": "A classmate imitates my accent while retelling something I said. I tell them I dislike it. They reply, \"Just joking.\"",
+      "user_goal": "Set a clear boundary without having to prove their intent.",
+      "possible_interpretations": [
+        {
+          "interpretation": "They may have intended humour.",
+          "when_plausible": "They describe it as a joke; that describes their account of intent, not its impact."
+        },
+        {
+          "interpretation": "They may be minimising your objection.",
+          "when_plausible": "They continue after you ask them to stop."
+        }
+      ],
+      "missing_context": [
+        "Do you feel comfortable replying directly?",
+        "Did the behaviour stop after your request?"
+      ],
+      "do_not_assume": "Do not call accent imitation a Singaporean norm or require the user to tolerate it to fit in.",
+      "suggested_response": "I understand you meant it as a joke, but I don’t like my accent being imitated. Please stop.",
+      "learning_check": {
+        "prompt": "Write a boundary that names the behaviour and the change you want.",
+        "success_criteria": [
+          "Names the behaviour",
+          "Requests that it stop",
+          "Does not require guessing intent"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "They apologise and stop.",
+        "expected_adjustment": "Acknowledge the changed behaviour; do not assert an ongoing pattern without evidence."
+      },
+      "tags": [
+        "humour",
+        "accent",
+        "boundary",
+        "impact"
+      ],
+      "singapore_specific_language": false,
+      "source_ids": [
+        "S4"
+      ],
+      "evidence_scope": "General distinction between intended humour and reception; campus boundary response is an author recommendation, not an institutional policy. If it persists, the user can choose a trusted campus support contact.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    },
+    {
+      "id": "sg-feedback-01",
+      "category": "feedback",
+      "title": "A mild suggestion can still be actionable",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "Maybe we could shorten the introduction a little.",
+      "scenario": "During rehearsal, a teammate says, \"Maybe we could shorten the introduction a little.\" Our presentation is two minutes over the limit.",
+      "user_goal": "Turn feedback into a specific edit.",
+      "possible_interpretations": [
+        {
+          "interpretation": "They are suggesting a real reduction in length.",
+          "when_plausible": "The rehearsal is over time."
+        },
+        {
+          "interpretation": "They are inviting discussion about where to cut.",
+          "when_plausible": "They phrase the suggestion collaboratively rather than specifying an edit."
+        }
+      ],
+      "missing_context": [
+        "How much time must be removed?",
+        "Which content is essential?"
+      ],
+      "do_not_assume": "Do not dismiss the suggestion because it uses maybe, or infer that they dislike your work overall.",
+      "suggested_response": "Would cutting the background example help? Let’s aim for a one-minute introduction.",
+      "learning_check": {
+        "prompt": "Ask for one concrete editing priority.",
+        "success_criteria": [
+          "Links the change to the time limit",
+          "Seeks specific content to change"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "The presentation is within the limit and they say shortening is optional.",
+        "expected_adjustment": "Treat it as an optional proposal rather than an urgent requirement."
+      },
+      "tags": [
+        "softened_feedback",
+        "maybe",
+        "presentation",
+        "editing"
+      ],
+      "singapore_specific_language": false,
+      "source_ids": [
+        "S3"
+      ],
+      "evidence_scope": "General constructive-feedback background only; this English sentence is not a fixed Singaporean code.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    },
+    {
+      "id": "sg-feedback-02",
+      "category": "feedback",
+      "title": "An observation may point to a work problem",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "This slide is quite text-heavy.",
+      "scenario": "A teammate reviews my slides and says, \"This slide is quite text-heavy.\" They do not suggest an edit.",
+      "user_goal": "Understand the concern and choose a useful revision.",
+      "possible_interpretations": [
+        {
+          "interpretation": "They may find the slide difficult to scan.",
+          "when_plausible": "There are several long paragraphs."
+        },
+        {
+          "interpretation": "They may simply be describing its format.",
+          "when_plausible": "The slide is an appendix intended for detailed reading."
+        }
+      ],
+      "missing_context": [
+        "Is it a live presentation slide or a reading handout?",
+        "Which part is hard to follow?"
+      ],
+      "do_not_assume": "Do not translate quite into a fixed level of criticism or assume the person is judging your ability.",
+      "suggested_response": "Which part is hardest to scan? I can move the detail into notes and keep three main points.",
+      "learning_check": {
+        "prompt": "How would your edit differ for a reading handout?",
+        "success_criteria": [
+          "Adapts to the purpose of the document",
+          "Asks about the specific concern"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "It is a reference handout and the reviewer says the detail is useful.",
+        "expected_adjustment": "Do not remove needed detail merely to follow the original card."
+      },
+      "tags": [
+        "feedback",
+        "quite",
+        "slides",
+        "specificity"
+      ],
+      "singapore_specific_language": false,
+      "source_ids": [
+        "S3",
+        "S6"
+      ],
+      "evidence_scope": "General feedback and context adaptation only. The exact interpretations and edits are authored hypotheses.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    },
+    {
+      "id": "sg-feedback-03",
+      "category": "feedback",
+      "title": "Silence is not a recorded decision",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "No replies after “Is everyone okay with this plan?”",
+      "scenario": "I post a project plan in a new group chat and ask if everyone agrees. Nobody replies for two hours. I wonder whether they are politely rejecting it.",
+      "user_goal": "Get an explicit decision before depending on the plan.",
+      "possible_interpretations": [
+        {
+          "interpretation": "People may not have read or considered it yet.",
+          "when_plausible": "Their availability is unknown."
+        },
+        {
+          "interpretation": "Some may have concerns or think no reply is needed.",
+          "when_plausible": "The group has no agreed response convention."
+        }
+      ],
+      "missing_context": [
+        "What response time has the group agreed?",
+        "How soon is the decision needed?"
+      ],
+      "do_not_assume": "Do not interpret silence as agreement, rejection, or a national communication trait.",
+      "suggested_response": "Could everyone confirm or suggest changes by 6 pm? We need to choose a plan before dividing the tasks.",
+      "learning_check": {
+        "prompt": "Write a follow-up that sets a response time without blaming anyone.",
+        "success_criteria": [
+          "Requests an explicit response",
+          "Explains the decision need"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "Everyone already explicitly approved the same plan in the meeting.",
+        "expected_adjustment": "Recognise that prior approval; ask only about any new changes."
+      },
+      "tags": [
+        "silence",
+        "group_chat",
+        "decision",
+        "feedback"
+      ],
+      "singapore_specific_language": false,
+      "source_ids": [
+        "S2"
+      ],
+      "evidence_scope": "General group communication background; no source claim establishes what a two-hour silence means.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    },
+    {
+      "id": "sg-feedback-04",
+      "category": "feedback",
+      "title": "Direct disagreement can be task-focused",
+      "setting": "Singapore university or campus",
+      "audience": "International students of any nationality",
+      "language": "en",
+      "expression_or_event": "This claim is not supported by our data.",
+      "scenario": "A teammate comments on my draft, \"This claim is not supported by our data.\" They highlight a sentence but add no greeting or praise.",
+      "user_goal": "Check the substance of the feedback and respond constructively.",
+      "possible_interpretations": [
+        {
+          "interpretation": "They are identifying a specific evidence problem.",
+          "when_plausible": "They point to a claim that may exceed the results."
+        },
+        {
+          "interpretation": "You may be using different interpretations of the evidence.",
+          "when_plausible": "You can identify relevant data that they may have missed."
+        }
+      ],
+      "missing_context": [
+        "Which evidence supports the claim?",
+        "What wording would accurately reflect the result?"
+      ],
+      "do_not_assume": "Do not infer dislike or rudeness solely from direct wording. Direct feedback can occur in any group.",
+      "suggested_response": "Thanks for flagging it. Which part goes beyond the data? I can revise the wording or point to the supporting result.",
+      "learning_check": {
+        "prompt": "Respond if you believe the claim is supported.",
+        "success_criteria": [
+          "Provides or asks about evidence",
+          "Keeps disagreement focused on the claim"
+        ]
+      },
+      "counterexample": {
+        "changed_context": "The teammate adds a personal insult unrelated to the draft.",
+        "expected_adjustment": "Separate the valid evidence question from the inappropriate personal remark; do not excuse the insult as direct feedback."
+      },
+      "tags": [
+        "direct_feedback",
+        "evidence",
+        "disagreement"
+      ],
+      "singapore_specific_language": false,
+      "source_ids": [
+        "S3"
+      ],
+      "evidence_scope": "General constructive-feedback background; the scenario is deliberately direct to counter a blanket indirectness stereotype.",
+      "provenance": {
+        "scenario_origin": "AI-authored fictional scenario",
+        "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+        "review_status": "synthetic_unreviewed",
+        "peer_reviewers": [],
+        "peer_perspectives": [],
+        "approved_for_verified_retrieval": false
+      }
+    }
+  ]
+}

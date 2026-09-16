@@ -1,0 +1,7 @@
+{
+  "name": "A playful complaint can also be a real request",
+  "situation": "I mention getting lunch with two classmates. Another classmate replies, \"Bojio!\" I am unsure whether they are joking or upset.",
+  "context": "",
+  "expected_card": "sg-humour-01",
+  "origin": "synthetic_unreviewed"
+}

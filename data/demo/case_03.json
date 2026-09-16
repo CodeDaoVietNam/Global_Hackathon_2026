@@ -1,0 +1,7 @@
+{
+  "name": "Direct disagreement can be task-focused",
+  "situation": "A teammate comments on my draft, \"This claim is not supported by our data.\" They highlight a sentence but add no greeting or praise.",
+  "context": "",
+  "expected_card": "sg-feedback-04",
+  "origin": "synthetic_unreviewed"
+}

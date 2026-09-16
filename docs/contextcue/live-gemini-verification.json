@@ -1,0 +1,126 @@
+{
+  "input": {
+    "situation": "My classmate said bojio after I mentioned lunch with other friends.",
+    "context": "They explicitly told me they felt excluded and were not joking."
+  },
+  "analysis": {
+    "summary": "Your classmate used the expression \"bojio\" after you mentioned having lunch with other friends. You have confirmed that your classmate explicitly stated they felt excluded and were not joking. This indicates a genuine feeling of being left out.",
+    "possible_meanings": [
+      "Your classmate genuinely felt excluded and wished they had been invited to lunch. This is supported by their explicit statement.",
+      "The use of \"bojio\" in this context was a direct, though perhaps informal, way of communicating their desire for inclusion in social activities with you and your friends."
+    ],
+    "do_not_assume": [
+      "Do not assume that your classmate is angry, even though they felt excluded. Their statement primarily conveys a feeling of being left out.",
+      "Do not assume that \"bojio\" is always a joke, especially when the speaker explicitly states they are not joking and feel excluded.",
+      "Do not assume that your classmate will always communicate their feelings of exclusion in the same way."
+    ],
+    "clarifying_questions": [
+      "Do you want to include this classmate in future social plans, such as lunch?",
+      "What was your immediate response to your classmate when they said \"bojio\" and expressed feeling excluded?"
+    ],
+    "next_action": "Acknowledge your classmate's feelings of exclusion and consider how you might address their desire for inclusion, if you wish to do so.",
+    "learning_prompt": "Consider how you would respond to your classmate to acknowledge their feelings and potentially invite them to future plans. For example, you could say something like, \"I'm sorry you felt left out. We were just [reason for lunch], but I'd love to include you next time. Would you like to join us for [next planned activity]?\"",
+    "card_ids": [
+      "sg-humour-01"
+    ],
+    "mode": "gemini",
+    "notice": "Research-informed fictional examples. Not peer-reviewed; interpretations are possibilities, not facts about the speaker.",
+    "cards": [
+      {
+        "id": "sg-humour-01",
+        "category": "humour",
+        "title": "A playful complaint can also be a real request",
+        "setting": "Singapore university or campus",
+        "audience": "International students of any nationality",
+        "language": "en",
+        "expression_or_event": "Bojio!",
+        "scenario": "I mention getting lunch with two classmates. Another classmate replies, \"Bojio!\" I am unsure whether they are joking or upset.",
+        "user_goal": "Acknowledge the remark without guessing their feelings.",
+        "possible_interpretations": [
+          {
+            "interpretation": "They may be playfully saying they were not invited.",
+            "when_plausible": "The exchange is relaxed and this style of joking is familiar between you."
+          },
+          {
+            "interpretation": "They may actually want to be included.",
+            "when_plausible": "They say they felt left out or this has happened repeatedly."
+          }
+        ],
+        "missing_context": [
+          "Have they previously asked to join?",
+          "What else did they say?"
+        ],
+        "do_not_assume": "Do not dismiss the remark as definitely a joke or conclude they are angry from the word alone.",
+        "suggested_response": "It was a last-minute lunch. Would you like me to message you next time?",
+        "learning_check": {
+          "prompt": "What would you change if they said they had felt excluded several times?",
+          "success_criteria": [
+            "Acknowledges the stated feeling",
+            "Offers a practical inclusion step without demanding they laugh"
+          ]
+        },
+        "counterexample": {
+          "changed_context": "They explicitly say, \"I felt left out, and I\u2019m not joking.\"",
+          "expected_adjustment": "Take that explanation seriously; do not override it with a glossary."
+        },
+        "tags": [
+          "bojio",
+          "teasing",
+          "inclusion",
+          "lunch"
+        ],
+        "singapore_specific_language": true,
+        "source_ids": [
+          "S5",
+          "S4"
+        ],
+        "evidence_scope": "Bojio\u2019s invitation-related meaning is sourced. Playfulness versus disappointment is a hypothetical distinction, not a documented account of this interaction.",
+        "provenance": {
+          "scenario_origin": "AI-authored fictional scenario",
+          "interpretation_origin": "Author-proposed hypotheses, not peer testimony",
+          "review_status": "synthetic_unreviewed",
+          "peer_reviewers": [],
+          "peer_perspectives": [],
+          "approved_for_verified_retrieval": false
+        }
+      }
+    ],
+    "sources": [
+      {
+        "id": "S4",
+        "title": "NUS BizBeat: Office humour: Why the joke\u2019s on you",
+        "url": "https://bizbeat.nus.edu.sg/thought-leadership/article/office-humour-why-the-jokes-on-you/",
+        "supports": "Humour can be received differently and may offend regardless of intended humour.",
+        "limits": "Workplace discussion; our campus applications are design extrapolations, not observed findings."
+      },
+      {
+        "id": "S5",
+        "title": "Singapore Tourism Board: Singapore Insider, Apr\u2013Jun 2019, printed page 3",
+        "url": "https://www.visitsingapore.com/content/dam/desktop/global/about-singapore/traveller-information/q2-singapore-insider-2019-en.pdf",
+        "supports": "Glossary explains makan as food/eating, shiok as enjoyment, and bojio as referring to not being invited.",
+        "limits": "Vocabulary support only; does not establish the emotions or intentions in our examples. Historical glossary, not current campus validation."
+      }
+    ],
+    "request_id": "a83ecf7f-34be-4855-ae80-5881d0b2c4b9"
+  },
+  "practice": {
+    "mode": "gemini",
+    "notice": "Research-informed fictional examples. Not peer-reviewed; interpretations are possibilities, not facts about the speaker.",
+    "criteria": [
+      "Acknowledges the stated feeling",
+      "Offers a practical inclusion step without demanding they laugh"
+    ],
+    "feedback": "Your response effectively addresses your classmate's feelings and offers a clear path forward. You correctly acknowledged their explicit statement about feeling excluded and proposed a practical solution for future interactions. This approach aligns well with the understanding that a playful complaint like 'bojio' can also be a real request for inclusion, especially when the person explicitly states they feel left out (sg-humour-01).",
+    "strengths": [
+      "You directly acknowledged your classmate's stated feeling of being left out, showing empathy and understanding.",
+      "You offered a clear and practical step for future inclusion, which directly addresses their concern.",
+      "Your response respects their feelings and avoids dismissing their 'bojio' remark as merely a joke, which is crucial given they explicitly stated they felt excluded (sg-humour-01)."
+    ],
+    "improvements": [
+      "Your response is already very good and directly addresses the situation. One minor refinement could be to make the offer of inclusion slightly more direct, moving from a question to a statement of intent."
+    ],
+    "suggested_revision": "I understand you felt left out. I'll be sure to invite you next time.",
+    "request_id": "c26012be-d842-47e9-b3f6-564ac64b2d1b"
+  },
+  "scope": "One fictional live test; not proof of general semantic accuracy."
+}

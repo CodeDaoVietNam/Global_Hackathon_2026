@@ -1,0 +1,77 @@
+[
+  {
+    "id": "agreement",
+    "situation": "He replied can lah when I asked for help with slides.",
+    "expected_card": "sg-team-01"
+  },
+  {
+    "id": "consider",
+    "situation": "They said can consider to my idea.",
+    "expected_card": "sg-team-02"
+  },
+  {
+    "id": "deadline",
+    "situation": "My classmate asked whether we need to submit tonight meh.",
+    "expected_card": "sg-team-03"
+  },
+  {
+    "id": "food",
+    "situation": "Someone invited me to makan.",
+    "expected_card": "sg-team-04"
+  },
+  {
+    "id": "invite",
+    "situation": "A friend wrote BOJIO when I went out without inviting them.",
+    "expected_card": "sg-humour-01"
+  },
+  {
+    "id": "irony",
+    "situation": "They wrote shiok about another early meeting.",
+    "expected_card": "sg-humour-02"
+  },
+  {
+    "id": "late",
+    "situation": "I arrived late and heard excellent timing.",
+    "expected_card": "sg-humour-03"
+  },
+  {
+    "id": "boundary",
+    "situation": "A student imitated my accent then claimed it was just joking.",
+    "expected_card": "sg-humour-04"
+  },
+  {
+    "id": "shorten",
+    "situation": "My teammate suggested we shorten the introduction because the presentation is over the time limit.",
+    "expected_card": "sg-feedback-01"
+  },
+  {
+    "id": "slide",
+    "situation": "Someone complained that the slide was text-heavy.",
+    "expected_card": "sg-feedback-02"
+  },
+  {
+    "id": "silence",
+    "situation": "Nobody replies in our group chat when I post a project plan.",
+    "expected_card": "sg-feedback-03"
+  },
+  {
+    "id": "evidence",
+    "situation": "They said the claim is not supported by our data.",
+    "expected_card": "sg-feedback-04"
+  },
+  {
+    "id": "unrelated",
+    "situation": "How do I renew my passport?",
+    "expected_card": null
+  },
+  {
+    "id": "vague",
+    "situation": "I do not know what to do.",
+    "expected_card": null
+  },
+  {
+    "id": "irrelevant-context",
+    "situation": "Where can I buy a laptop for university?",
+    "expected_card": null
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "name": "A question may express surprise",
+  "situation": "I remind the group that the report is due tonight. A teammate writes, \"Need to submit tonight meh?\" I worry that they are challenging me.",
+  "context": "",
+  "expected_card": "sg-team-03",
+  "origin": "synthetic_unreviewed"
+}
